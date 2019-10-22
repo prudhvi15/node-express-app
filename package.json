@@ -1,5 +1,5 @@
 {
-  "name": "node-express-app",
+  "name": "express-app",
   "description": "A super simple web app with Node.js and the Express web framework",
   "version": "1.0.0",
   "author": "Denise Case",
@@ -29,7 +29,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/denisecase/node-express-app"
+    "url": "git+https://github.com/denisecase/node-express-app.git"
   },
   "scripts": {
     "dev": "nodemon app.js",
