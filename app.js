@@ -19,7 +19,7 @@ const port = process.env.PORT || config.get("port");
 // declare your callback function the old way
 app.get('/', function (req, res) {
   res.send('Welcome to the my page!  <br> <br>' +
-    'click here for my repo<br>'+
+    'click here for my Repository<br>'+
     '<a href="https://github.com/prudhvi15">link</a><br>'
   )
 })
